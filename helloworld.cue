@@ -18,8 +18,8 @@ dagger.#Plan & {
 		// Hello world
 		hello: core.#Exec & {
 			input: _alpine.output
-			//args: ["echo", "hello, world!"]
-			args: ["sleep", "100"]
+			args: ["echo", "hello, world!"]
+			//args: ["sleep", "100"]
 			always: true
 		}
 	}
